@@ -1,0 +1,10 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+
+minio:
+  endpoint: http://42.192.90.205:9000
+  accessKey: yantiande
+  secretKey: yantiande123
